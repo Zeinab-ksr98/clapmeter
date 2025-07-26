@@ -1,0 +1,6 @@
+input.onSound(DetectedSound.Loud, function () {
+    clap += 1
+    basic.showNumber(clap)
+})
+let clap = 0
+clap = 0
